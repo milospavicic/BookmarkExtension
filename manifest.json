@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Bookmark++",
+    "description": "Fast bookmark",
+    "version": "1.0",
+    "author": "Milos",
+    "browser_action": {
+        "default_icon": "bookmark_add.png",
+        "default_title": "Have a good day",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab","bookmarks"],
+     "commands": {
+         "save-to-music" : {
+            "suggested_key": {
+                 "default": "Ctrl+Shift+M" 
+            },"global": true
+        },
+        "save-to-bar": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+B"
+            },"global": true
+    }
+}
