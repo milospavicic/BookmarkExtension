@@ -2,15 +2,6 @@ window.onload=function(){
     document.getElementById("music-bookmark").addEventListener("click", musicBookmark);
     document.getElementById("bar-bookmark").addEventListener("click", basicBookmark);
     
-chrome.commands.onCommand.addListener(function (command) {
-    alert(3);
-    if (command === "save-to-music") {
-        alert("save");
-    } else if (command === "save-to-bar") {
-        alert("random");
-    }
-});
-    
 } 
  
 function basicBookmark() {
@@ -35,6 +26,7 @@ function createTestBookmark(parentId, title, url) {
             console.log("added bookmark: " + newBookmark.title);
     });
 }
+
 //var map = {}; 
 //onkeydown = onkeyup = function(e){
 //    e = e || event; // to deal with IE

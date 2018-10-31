@@ -14,11 +14,11 @@
          "save-to-music" : {
             "suggested_key": {
                  "default": "Ctrl+Shift+M" 
-            },"global": true
+            }
         },
         "save-to-bar": {
             "suggested_key": {
                 "default": "Ctrl+Shift+B"
-            },"global": true
+            }
     }
 }
