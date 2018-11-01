@@ -9,16 +9,5 @@
         "default_title": "Have a good day",
         "default_popup": "popup.html"
     },
-    "permissions": ["activeTab","bookmarks"],
-     "commands": {
-         "save-to-music" : {
-            "suggested_key": {
-                 "default": "Ctrl+Shift+M" 
-            }
-        },
-        "save-to-bar": {
-            "suggested_key": {
-                "default": "Ctrl+Shift+B"
-            }
-    }
+    "permissions": ["activeTab","bookmarks","contextMenus","tabs"]
 }
